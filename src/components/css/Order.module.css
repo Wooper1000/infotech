@@ -1,0 +1,15 @@
+ons-row,ons-col{
+    padding:5px;
+}
+.notAbsolute{
+    position: relative !important;
+}
+.borderRow{
+    border-bottom: 3px solid burlywood
+}
+.rowPaddingTop{
+    padding-top: 4px;
+}
+input, textarea, select {
+    font-size: 16px;
+}

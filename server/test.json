@@ -1,0 +1,9 @@
+{
+  "id": 0,
+  "tickettype": 3,
+  "order1c": "000471691",
+  "data": "{\r\n\"lastmile\": \"\",\r\n\"data\": [\r\n{\r\n\"obitnum\": \"OBIT-229396\",\r\n\"hwmodel\": \"Коммутатор TP-LINK JetStream TL-SG3428X, 24 порта 10/100/1000 RJ45 + 4 SFP+ 10G\",\r\n\"hwip\": \"172.17.232.102\",\r\n\"hwuplink\": \"24\",\r\n\"switchip\": \"172.17.60.138\",\r\n\"switchport\": \"GigabitEthernet1/0/20\",\r\n\"switchobitnum\": \"OBIT-226064\"\r\n}\r\n],\r\n\"radio\": 0,\r\n\"optic\": 0,\r\n\"ether\": 0,\r\n\"comment\": \"\"\r\n}",
+  "AddressGUID": "13300be6-b7fd-43aa-8622-dc15972fc103",
+  "sourceid": "f71840a5-60ee-d72b-2e07-55ee500f95b5",
+  "delayed": false
+}

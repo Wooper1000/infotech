@@ -1,0 +1,3127 @@
+[
+  {
+    "Заявка": null,
+    "Номенклатура": {
+      "uid": "65d0f407-4808-47a5-833e-b07180701e44",
+      "Code": "00028288",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=833eb07180701e4447a5480865d0f407",
+      "Presentation": "Ключ 0220 \"Всеволожск\"",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ddadaf87-7b1c-45a1-a550-5435fff5cfd3",
+        "Code": "00024154",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a5505435fff5cfd345a17b1cddadaf87",
+        "Presentation": "Ключи от узлов",
+        "IsGroup": true,
+        "Parent": {},
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "02-0091             ",
+    "Количество": 1
+  },
+  {
+    "Заявка": null,
+    "Номенклатура": {
+      "uid": "a88a5c04-3759-4c88-b262-92f110c9d126",
+      "Code": "00028290",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b26292f110c9d1264c883759a88a5c04",
+      "Presentation": "Ключ 0024 \"Фрунзенский\"",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ddadaf87-7b1c-45a1-a550-5435fff5cfd3",
+        "Code": "00024154",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a5505435fff5cfd345a17b1cddadaf87",
+        "Presentation": "Ключи от узлов",
+        "IsGroup": true,
+        "Parent": {},
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "02-0100             ",
+    "Количество": 1
+  },
+  {
+    "Заявка": null,
+    "Номенклатура": {
+      "uid": "5bac4253-f039-414a-89b6-2a565ba079ca",
+      "Code": "00028292",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=89b62a565ba079ca414af0395bac4253",
+      "Presentation": "Ключ 0422 \"Красносельский\"",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ddadaf87-7b1c-45a1-a550-5435fff5cfd3",
+        "Code": "00024154",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a5505435fff5cfd345a17b1cddadaf87",
+        "Presentation": "Ключи от узлов",
+        "IsGroup": true,
+        "Parent": {},
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "02-0108             ",
+    "Количество": 1
+  },
+  {
+    "Заявка": null,
+    "Номенклатура": {
+      "uid": "b50b95d5-5782-495a-b50a-0c3568f407aa",
+      "Code": "00028294",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b50a0c3568f407aa495a5782b50b95d5",
+      "Presentation": "Ключ 2400 \"Центральный\"",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ddadaf87-7b1c-45a1-a550-5435fff5cfd3",
+        "Code": "00024154",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a5505435fff5cfd345a17b1cddadaf87",
+        "Presentation": "Ключи от узлов",
+        "IsGroup": true,
+        "Parent": {},
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "02-0110             ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "861d7c9f-b971-11e7-8776-003048c6b4ab",
+      "Code": "00027891",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e7b971861d7c9f",
+      "Presentation": "Ноутбук HP EliteBook 25xx 12.5\"",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "098ac6b5-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000304",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93098ac6b5",
+        "Presentation": "Системные блоки",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0280523f-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000012",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930280523f",
+          "Presentation": "Оргтехника",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-201905         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000440989",
+    "Номенклатура": {
+      "uid": "3a6762db-e798-4fa9-888b-e8f70a256b07",
+      "Code": "00029127",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=888be8f70a256b074fa9e7983a6762db",
+      "Presentation": "Измеритель оптической мощности VFL NK200V",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-204599         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000418909",
+    "Номенклатура": {
+      "uid": "d61cbbc5-4602-11e7-ba86-003048c6b4ab",
+      "Code": "00027589",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=ba86003048c6b4ab11e74602d61cbbc5",
+      "Presentation": "Тестер тип 701К (тон.генератор 77HP + индуктивный щуп 200EP)",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-205093         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "3b659f1c-a66c-4228-a7a9-b88eea5a4dda",
+      "Code": "00029098",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a7a9b88eea5a4dda4228a66c3b659f1c",
+      "Presentation": "Мобильный POS терминал P17",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa93158-4c93-11df-8906-003048c6b4ab",
+        "Code": "00001809",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93158",
+        "Presentation": "Домофон",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-205138         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000418115",
+    "Номенклатура": {
+      "uid": "ff6c0025-6312-11e7-8776-003048c6b4ab",
+      "Code": "00027660",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e76312ff6c0025",
+      "Presentation": "Терминал абонентский Huawei HG8310M GPON, 1x10/100/1000Base-T (Class B+)",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "cce496f5-34fc-11e5-bf41-003048c6b4ab",
+        "Code": "00026515",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf41003048c6b4ab11e534fccce496f5",
+        "Presentation": "Оборудование PON",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "SN может быть похож на MAC (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-211776         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": null,
+    "Номенклатура": {
+      "uid": "ed8776a7-43df-11e4-b62b-003048c6b4ab",
+      "Code": "00026024",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b62b003048c6b4ab11e443dfed8776a7",
+      "Presentation": "Модем Eltex ONT NTE-2 (B+), 1 порт TurboGEPON (SC), 1 порт 1000Base-T, 1 порт 10/100",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "cce496f5-34fc-11e5-bf41-003048c6b4ab",
+        "Code": "00026515",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf41003048c6b4ab11e534fccce496f5",
+        "Presentation": "Оборудование PON",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-212709         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000431772",
+    "Номенклатура": {
+      "uid": "8aa7eee1-87a5-4f5c-9d56-4d6f90cbb367",
+      "Code": "00028549",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=9d564d6f90cbb3674f5c87a58aa7eee1",
+      "Presentation": "Шлюз VoIP TAU-2M.IP 2xFXS, 1xWAN, 1xLAN, 1xUSB, SIP",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "1d7dbc3f-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000054",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c931d7dbc3f",
+        "Presentation": "Оборудование VoIP",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Требуется настройка IP (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-222752         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000440985",
+    "Номенклатура": {
+      "uid": "b456d16c-1269-11e0-adb9-003048c6b4ab",
+      "Code": "00022645",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=adb9003048c6b4ab11e01269b456d16c",
+      "Presentation": "Скалыватель Jilong KL-21",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-224603         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000437629",
+    "Номенклатура": {
+      "uid": "8aa7eee1-87a5-4f5c-9d56-4d6f90cbb367",
+      "Code": "00028549",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=9d564d6f90cbb3674f5c87a58aa7eee1",
+      "Presentation": "Шлюз VoIP TAU-2M.IP 2xFXS, 1xWAN, 1xLAN, 1xUSB, SIP",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "1d7dbc3f-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000054",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c931d7dbc3f",
+        "Presentation": "Оборудование VoIP",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Требуется настройка IP (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-224651         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000453276",
+    "Номенклатура": {
+      "uid": "0184f913-6e84-4e52-a683-6bfd6891b02b",
+      "Code": "00030441",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a6836bfd6891b02b4e526e840184f913",
+      "Presentation": "Терминал абонентский Huawei HG8010H GPON, 1x1GE RJ-45 (Class B+)",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "cce496f5-34fc-11e5-bf41-003048c6b4ab",
+        "Code": "00026515",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf41003048c6b4ab11e534fccce496f5",
+        "Presentation": "Оборудование PON",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-226111         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000419069",
+    "Номенклатура": {
+      "uid": "cb22d621-5b0c-11e7-8776-003048c6b4ab",
+      "Code": "00027635",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e75b0ccb22d621",
+      "Presentation": "Коммутатор TP-LINK TL-SG1005D, 5 портов Gigabit",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "17451628-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000017",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c9317451628",
+        "Presentation": "Коммутаторы",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 100
+        },
+        {
+          "Свойство": "Требуется настройка IP (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "SN может быть похож на MAC (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-273714         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000438258",
+    "Номенклатура": {
+      "uid": "99dbd8eb-9ad1-4114-b757-310bc574232e",
+      "Code": "00029261",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b757310bc574232e41149ad199dbd8eb",
+      "Presentation": "Приставка телевизионная цифровая  TVIP S-Box v.530",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "a7fca548-512a-11e0-bf87-003048c6b4ab",
+        "Code": "00022808",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf87003048c6b4ab11e0512aa7fca548",
+        "Presentation": "Теле, фото",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "SN может быть похож на MAC (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-276999         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000452059",
+    "Номенклатура": {
+      "uid": "e073b59b-3e9a-459c-99e1-b80950c35baf",
+      "Code": "00030473",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=99e1b80950c35baf459c3e9ae073b59b",
+      "Presentation": "Приставка телевизионная Vermax UHD300X, IPTV 4K",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "a7fca548-512a-11e0-bf87-003048c6b4ab",
+        "Code": "00022808",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf87003048c6b4ab11e0512aa7fca548",
+        "Presentation": "Теле, фото",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-279179         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000453276",
+    "Номенклатура": {
+      "uid": "e073b59b-3e9a-459c-99e1-b80950c35baf",
+      "Code": "00030473",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=99e1b80950c35baf459c3e9ae073b59b",
+      "Presentation": "Приставка телевизионная Vermax UHD300X, IPTV 4K",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "a7fca548-512a-11e0-bf87-003048c6b4ab",
+        "Code": "00022808",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf87003048c6b4ab11e0512aa7fca548",
+        "Presentation": "Теле, фото",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-279400         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000453276",
+    "Номенклатура": {
+      "uid": "e073b59b-3e9a-459c-99e1-b80950c35baf",
+      "Code": "00030473",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=99e1b80950c35baf459c3e9ae073b59b",
+      "Presentation": "Приставка телевизионная Vermax UHD300X, IPTV 4K",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "a7fca548-512a-11e0-bf87-003048c6b4ab",
+        "Code": "00022808",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf87003048c6b4ab11e0512aa7fca548",
+        "Presentation": "Теле, фото",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-279401         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000453276",
+    "Номенклатура": {
+      "uid": "e073b59b-3e9a-459c-99e1-b80950c35baf",
+      "Code": "00030473",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=99e1b80950c35baf459c3e9ae073b59b",
+      "Presentation": "Приставка телевизионная Vermax UHD300X, IPTV 4K",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "a7fca548-512a-11e0-bf87-003048c6b4ab",
+        "Code": "00022808",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf87003048c6b4ab11e0512aa7fca548",
+        "Presentation": "Теле, фото",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-279402         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000453276",
+    "Номенклатура": {
+      "uid": "e073b59b-3e9a-459c-99e1-b80950c35baf",
+      "Code": "00030473",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=99e1b80950c35baf459c3e9ae073b59b",
+      "Presentation": "Приставка телевизионная Vermax UHD300X, IPTV 4K",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "a7fca548-512a-11e0-bf87-003048c6b4ab",
+        "Code": "00022808",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf87003048c6b4ab11e0512aa7fca548",
+        "Presentation": "Теле, фото",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-279404         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000454374",
+    "Номенклатура": {
+      "uid": "e073b59b-3e9a-459c-99e1-b80950c35baf",
+      "Code": "00030473",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=99e1b80950c35baf459c3e9ae073b59b",
+      "Presentation": "Приставка телевизионная Vermax UHD300X, IPTV 4K",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "a7fca548-512a-11e0-bf87-003048c6b4ab",
+        "Code": "00022808",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bf87003048c6b4ab11e0512aa7fca548",
+        "Presentation": "Теле, фото",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f2f8deb4-d7da-4577-b109-3a9567314185",
+          "Code": "00030220",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b1093a95673141854577d7daf2f8deb4",
+          "Presentation": "Прочее техническое",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-279483         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000456750",
+    "Номенклатура": {
+      "uid": "30b9c58a-6e24-47da-b223-715b5256b2d0",
+      "Code": "00029501",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b223715b5256b2d047da6e2430b9c58a",
+      "Presentation": "Маршрутизатор Wi-Fi TP-LINK Archer C20 1xWAN 4xLAN; 2,4 + 5 ГГц",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa932b7-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000051",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa932b7",
+        "Presentation": "Оборудование",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Требуется настройка IP (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "SN может быть похож на MAC (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-279820         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000456750",
+    "Номенклатура": {
+      "uid": "30b9c58a-6e24-47da-b223-715b5256b2d0",
+      "Code": "00029501",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b223715b5256b2d047da6e2430b9c58a",
+      "Presentation": "Маршрутизатор Wi-Fi TP-LINK Archer C20 1xWAN 4xLAN; 2,4 + 5 ГГц",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa932b7-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000051",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa932b7",
+        "Presentation": "Оборудование",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Требуется настройка IP (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "SN может быть похож на MAC (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-279829         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000448887",
+    "Номенклатура": {
+      "uid": "b27716ca-daf3-4ea2-8c98-3bf3d8ac02fd",
+      "Code": "00028730",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8c983bf3d8ac02fd4ea2daf3b27716ca",
+      "Presentation": "Маршрутизатор Wi-Fi TP-LINK Archer C5 1xWAN 4xLAN 1xUSB; 2,4 + 5 ГГц",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa932b7-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000051",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa932b7",
+        "Presentation": "Оборудование",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Требуется настройка IP (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "SN может быть похож на MAC (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-279913         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000452059",
+    "Номенклатура": {
+      "uid": "b27716ca-daf3-4ea2-8c98-3bf3d8ac02fd",
+      "Code": "00028730",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8c983bf3d8ac02fd4ea2daf3b27716ca",
+      "Presentation": "Маршрутизатор Wi-Fi TP-LINK Archer C5 1xWAN 4xLAN 1xUSB; 2,4 + 5 ГГц",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa932b7-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000051",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa932b7",
+        "Presentation": "Оборудование",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Требуется настройка IP (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "SN может быть похож на MAC (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-280029         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000454374",
+    "Номенклатура": {
+      "uid": "0104c112-5814-4ed6-a0b5-5c8d7613166b",
+      "Code": "00030055",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a0b55c8d7613166b4ed658140104c112",
+      "Presentation": "Маршрутизатор Wi-Fi D-link DIR-806A 1xWAN 4xLAN",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa932b7-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000051",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa932b7",
+        "Presentation": "Оборудование",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "174515ed-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000005",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515ed",
+          "Presentation": "Сетевое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "OBIT-280663         ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0d01-4c92-11df-8906-003048c6b4ab",
+      "Code": "00001388",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0d01",
+      "Presentation": "Шуруповерт HITACHI  DS12DVF3",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-30754          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "63ea37b6-73c6-11df-8906-003048c6b4ab",
+      "Code": "00022290",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df73c663ea37b6",
+      "Presentation": "Лестница-трансформер 4x3",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "f552ac3c-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000022",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ac3c",
+        "Presentation": "Прочее",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-65627          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "52ed3dfd-6720-11df-8906-003048c6b4ab",
+      "Code": "00022266",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df672052ed3dfd",
+      "Presentation": "Удлинитель 50м",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "3090942d-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000064",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c933090942d",
+        "Presentation": "Прочее",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "309093e4-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000010",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93309093e4",
+          "Presentation": "Электрооборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-79470          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "b7d42ff2-b902-11e0-bff6-003048c6b4ab",
+      "Code": "00023062",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bff6003048c6b4ab11e0b902b7d42ff2",
+      "Presentation": "Перфоратор MAKITA HR2470",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-87007          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000418907",
+    "Номенклатура": {
+      "uid": "ee9e0cdb-4c92-11df-8906-003048c6b4ab",
+      "Code": "00000888",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0cdb",
+      "Presentation": "Тестер для интерфейсов RJ-45 (расстояние до обрыва, длина кабеля) SC8108",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-88058          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "5e8e47c3-b9df-11e1-8b70-003048c6b4ab",
+      "Code": "00023622",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8b70003048c6b4ab11e1b9df5e8e47c3",
+      "Presentation": "Телефон Siemens Gigaset DA210",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "2a8a0046-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000060",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c932a8a0046",
+        "Presentation": "Телефоны, факсы и т.д.",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "23844f99-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000002",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c9323844f99",
+          "Presentation": "Станционное оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "OBIT-88247          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000452149",
+    "Номенклатура": {
+      "uid": "607f61f3-a519-11e3-a1b8-003048c6b4ab",
+      "Code": "00025678",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a1b8003048c6b4ab11e3a519607f61f3",
+      "Presentation": "Куртка Аляска удлиненная черная",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa931cb-4c93-11df-8906-003048c6b4ab",
+        "Code": "00001658",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa931cb",
+        "Presentation": "Спецодежда",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0fa93157-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000013",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93157",
+          "Presentation": "Прочее",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "WOSN-90333          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "6b332b19-c062-11e7-8776-003048c6b4ab",
+      "Code": "00027907",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e7c0626b332b19",
+      "Presentation": "Рюкзак",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa931cb-4c93-11df-8906-003048c6b4ab",
+        "Code": "00001658",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa931cb",
+        "Presentation": "Спецодежда",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0fa93157-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000013",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93157",
+          "Presentation": "Прочее",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": "WOSN-90508          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415503",
+    "Номенклатура": {
+      "uid": "b786b496-dee8-4237-9b04-fa46be00893a",
+      "Code": "00030188",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=9b04fa46be00893a4237dee8b786b496",
+      "Presentation": "Куртка летняя \"Алекс\" с вышивкой \"БТК\"",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa931cb-4c93-11df-8906-003048c6b4ab",
+        "Code": "00001658",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa931cb",
+        "Presentation": "Спецодежда",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0fa93157-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000013",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93157",
+          "Presentation": "Прочее",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "WOSN-90531          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415503",
+    "Номенклатура": {
+      "uid": "9d971ca4-96cf-4eed-9e74-8253e09cc14b",
+      "Code": "00030189",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=9e748253e09cc14b4eed96cf9d971ca4",
+      "Presentation": "Полукомбинезон летний \"Престиж\" с вышивкой \"БТК\"",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "0fa931cb-4c93-11df-8906-003048c6b4ab",
+        "Code": "00001658",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa931cb",
+        "Presentation": "Спецодежда",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0fa93157-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000013",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93157",
+          "Presentation": "Прочее",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": "WOSN-90624          ",
+    "Количество": 1
+  },
+  {
+    "Заявка": "000457400",
+    "Номенклатура": {
+      "uid": "fb868ce1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00012167",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868ce1",
+      "Presentation": "Кабель витая пара, 4 пары, 5 кат., UTP",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "f552ad29-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000024",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ad29",
+        "Presentation": "Медь",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f552acd2-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000001",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552acd2",
+          "Presentation": "Кабель",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "м",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 220000
+        },
+        {
+          "Свойство": "Кабель оптический (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "Кабель медный (Номенклатура склада)",
+          "Значение": true
+        },
+        {
+          "Свойство": "Основное средство (Номенклатура склада)",
+          "Значение": false
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 610
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "fcf289da-5d6f-11e7-8776-003048c6b4ab",
+      "Code": "00027648",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e75d6ffcf289da",
+      "Presentation": "Карабин 5x50 DIN5299",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0d07-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000021",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0d07",
+        "Presentation": "Комплектующие",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "fcf289dc-5d6f-11e7-8776-003048c6b4ab",
+      "Code": "00027649",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e75d6ffcf289dc",
+      "Presentation": "Карабин 10x100 DIN5299",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0d07-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000021",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0d07",
+        "Presentation": "Комплектующие",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "fcf289de-5d6f-11e7-8776-003048c6b4ab",
+      "Code": "00027650",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e75d6ffcf289de",
+      "Presentation": "Блок монтажный для троса 30мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0d07-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000021",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0d07",
+        "Presentation": "Комплектующие",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "4af80fbc-a809-11e7-8776-003048c6b4ab",
+      "Code": "00027841",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e7a8094af80fbc",
+      "Presentation": "Фонарь налобный светодиодный аккумуляторный",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "278b7000-222a-11e1-bc67-003048c6b4ab",
+      "Code": "00023317",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bc67003048c6b4ab11e1222a278b7000",
+      "Presentation": "Отвертка ударная шлицевая 6,5х125 (150)",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000456750",
+    "Номенклатура": {
+      "uid": "fb868ce1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00012167",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868ce1",
+      "Presentation": "Кабель витая пара, 4 пары, 5 кат., UTP",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "f552ad29-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000024",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ad29",
+        "Presentation": "Медь",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f552acd2-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000001",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552acd2",
+          "Presentation": "Кабель",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "м",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 220000
+        },
+        {
+          "Свойство": "Кабель оптический (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "Кабель медный (Номенклатура склада)",
+          "Значение": true
+        },
+        {
+          "Свойство": "Основное средство (Номенклатура склада)",
+          "Значение": false
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 382
+  },
+  {
+    "Заявка": "000456750",
+    "Номенклатура": {
+      "uid": "fb868dc1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00011357",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868dc1",
+      "Presentation": "Вилка RJ-45",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "fb868db5-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000032",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868db5",
+        "Presentation": "Разъемы, соеденители",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "fb868d23-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000007",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868d23",
+          "Presentation": "Кроссовое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 100
+  },
+  {
+    "Заявка": "000456750",
+    "Номенклатура": {
+      "uid": "fb868dc9-4c92-11df-8906-003048c6b4ab",
+      "Code": "00010172",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868dc9",
+      "Presentation": "Скотч-лок двойной (соединитель) (в уп.100шт.)",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "fb868db5-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000032",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868db5",
+        "Presentation": "Разъемы, соеденители",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "fb868d23-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000007",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868d23",
+          "Presentation": "Кроссовое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 100
+  },
+  {
+    "Заявка": "000457218",
+    "Номенклатура": {
+      "uid": "fb868da3-4c92-11df-8906-003048c6b4ab",
+      "Code": "00010592",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868da3",
+      "Presentation": "Кабельорганайзер стоечный",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "fb868d89-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000031",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868d89",
+        "Presentation": "Прочее",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "fb868d23-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000007",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868d23",
+          "Presentation": "Кроссовое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": null,
+    "Номенклатура": {
+      "uid": "fb868ce1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00012167",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868ce1",
+      "Presentation": "Кабель витая пара, 4 пары, 5 кат., UTP",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "f552ad29-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000024",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ad29",
+        "Presentation": "Медь",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f552acd2-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000001",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552acd2",
+          "Presentation": "Кабель",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "м",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 220000
+        },
+        {
+          "Свойство": "Кабель оптический (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "Кабель медный (Номенклатура склада)",
+          "Значение": true
+        },
+        {
+          "Свойство": "Основное средство (Номенклатура склада)",
+          "Значение": false
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 60
+  },
+  {
+    "Заявка": "000449723",
+    "Номенклатура": {
+      "uid": "5f621724-cf37-11e1-a74d-003048c6b4ab",
+      "Code": "00023657",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a74d003048c6b4ab11e1cf375f621724",
+      "Presentation": "Кабель HDMI-HDMI 1м",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "174515e8-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000050",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515e8",
+        "Presentation": "Прочее",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0fa93281-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000009",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93281",
+          "Presentation": "Радиодоступ",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000449723",
+    "Номенклатура": {
+      "uid": "a491ee81-d703-11e1-a74d-003048c6b4ab",
+      "Code": "00023693",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a74d003048c6b4ab11e1d703a491ee81",
+      "Presentation": "Кабель HDMI-HDMI 1,8м",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "174515e8-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000050",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515e8",
+        "Presentation": "Прочее",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0fa93281-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000009",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93281",
+          "Presentation": "Радиодоступ",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000453276",
+    "Номенклатура": {
+      "uid": "f552ac86-4c92-11df-8906-003048c6b4ab",
+      "Code": "00011930",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ac86",
+      "Presentation": "Стяжки 200*2.5 черные всепогодные",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "f552ac63-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000023",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ac63",
+        "Presentation": "Стяжки",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": false
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 100
+  },
+  {
+    "Заявка": "000453276",
+    "Номенклатура": {
+      "uid": "fb868dc1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00011357",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868dc1",
+      "Presentation": "Вилка RJ-45",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "fb868db5-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000032",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868db5",
+        "Presentation": "Разъемы, соеденители",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "fb868d23-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000007",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868d23",
+          "Presentation": "Кроссовое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 100
+  },
+  {
+    "Заявка": "000455422",
+    "Номенклатура": {
+      "uid": "ee9e0d26-4c92-11df-8906-003048c6b4ab",
+      "Code": "00011287",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0d26",
+      "Presentation": "Изолента  цветная",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0d07-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000021",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0d07",
+        "Presentation": "Комплектующие",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": false
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000455422",
+    "Номенклатура": {
+      "uid": "fb868dc1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00011357",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868dc1",
+      "Presentation": "Вилка RJ-45",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "fb868db5-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000032",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868db5",
+        "Presentation": "Разъемы, соеденители",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "fb868d23-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000007",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868d23",
+          "Presentation": "Кроссовое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 100
+  },
+  {
+    "Заявка": "000418115",
+    "Номенклатура": {
+      "uid": "0b70a02f-b105-11e4-afa1-003048c6b4ab",
+      "Code": "00026222",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=afa1003048c6b4ab11e4b1050b70a02f",
+      "Presentation": "Кросс настенный 1:2, SC/LC для PON ",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "02805127-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000037",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c9302805127",
+        "Presentation": "Оптические боксы",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "fb868df1-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000008",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868df1",
+          "Presentation": "Оптическое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 30
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000419935",
+    "Номенклатура": {
+      "uid": "fb868ce1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00012167",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868ce1",
+      "Presentation": "Кабель витая пара, 4 пары, 5 кат., UTP",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "f552ad29-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000024",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ad29",
+        "Presentation": "Медь",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f552acd2-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000001",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552acd2",
+          "Presentation": "Кабель",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "м",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 220000
+        },
+        {
+          "Свойство": "Кабель оптический (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "Кабель медный (Номенклатура склада)",
+          "Значение": true
+        },
+        {
+          "Свойство": "Основное средство (Номенклатура склада)",
+          "Значение": false
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": -27
+  },
+  {
+    "Заявка": "000434890",
+    "Номенклатура": {
+      "uid": "377e6bea-4c93-11df-8906-003048c6b4ab",
+      "Code": "00010639",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93377e6bea",
+      "Presentation": "Удлинитель 4 розетки, 3м",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "377e6be4-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000066",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93377e6be4",
+        "Presentation": "Сетевые фильтры",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "309093e4-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000010",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93309093e4",
+          "Presentation": "Электрооборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000440884",
+    "Номенклатура": {
+      "uid": "c0a4f7c7-685c-11e6-969e-003048c6b4ab",
+      "Code": "00027111",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=969e003048c6b4ab11e6685cc0a4f7c7",
+      "Presentation": "SC/APC-SC/UPC, 2м, патчкорд одномодовый ",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "454c1a1f-ae4c-11e7-8776-003048c6b4ab",
+        "Code": "00027863",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e7ae4c454c1a1f",
+        "Presentation": "Патч-корды APC",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "02805173-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000039",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c9302805173",
+          "Presentation": "Патч-корды",
+          "IsGroup": true,
+          "Parent": {
+            "uid": "fb868df1-4c92-11df-8906-003048c6b4ab",
+            "Code": "00000008",
+            "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868df1",
+            "Presentation": "Оптическое оборудование",
+            "IsGroup": true,
+            "Parent": {},
+            "ExtProps": []
+          },
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 20
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000440884",
+    "Номенклатура": {
+      "uid": "0b70a02f-b105-11e4-afa1-003048c6b4ab",
+      "Code": "00026222",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=afa1003048c6b4ab11e4b1050b70a02f",
+      "Presentation": "Кросс настенный 1:2, SC/LC для PON ",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "02805127-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000037",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c9302805127",
+        "Presentation": "Оптические боксы",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "fb868df1-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000008",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868df1",
+          "Presentation": "Оптическое оборудование",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Контролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 30
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000440985",
+    "Номенклатура": {
+      "uid": "ee9e0cf5-4c92-11df-8906-003048c6b4ab",
+      "Code": "00002018",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0cf5",
+      "Presentation": "Устройство для зачистки оптоволокна (стриппер) 125мм/162мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0c91-4c92-11df-8906-003048c6b4ab",
+      "Code": "00000914",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c91",
+      "Presentation": "УЗК мини L=30м, D=3.5мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0c9b-4c92-11df-8906-003048c6b4ab",
+      "Code": "00000777",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c9b",
+      "Presentation": "Нож с выдвижн.сегмент.лезвием шир.18мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0ca9-4c92-11df-8906-003048c6b4ab",
+      "Code": "00001394",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0ca9",
+      "Presentation": "Отвертка крестовая 100мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000416979",
+    "Номенклатура": {
+      "uid": "fb868ce1-4c92-11df-8906-003048c6b4ab",
+      "Code": "00012167",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868ce1",
+      "Presentation": "Кабель витая пара, 4 пары, 5 кат., UTP",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "f552ad29-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000024",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552ad29",
+        "Presentation": "Медь",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "f552acd2-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000001",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92f552acd2",
+          "Presentation": "Кабель",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "м",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 220000
+        },
+        {
+          "Свойство": "Кабель оптический (Номенклатура склада)",
+          "Значение": false
+        },
+        {
+          "Свойство": "Кабель медный (Номенклатура склада)",
+          "Значение": true
+        },
+        {
+          "Свойство": "Основное средство (Номенклатура склада)",
+          "Значение": false
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": -16
+  },
+  {
+    "Заявка": "000416979",
+    "Номенклатура": {
+      "uid": "5f621724-cf37-11e1-a74d-003048c6b4ab",
+      "Code": "00023657",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a74d003048c6b4ab11e1cf375f621724",
+      "Presentation": "Кабель HDMI-HDMI 1м",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "174515e8-4c93-11df-8906-003048c6b4ab",
+        "Code": "00000050",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c93174515e8",
+        "Presentation": "Прочее",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "0fa93281-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000009",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c930fa93281",
+          "Presentation": "Радиодоступ",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": []
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000418115",
+    "Номенклатура": {
+      "uid": "c0a4f7c7-685c-11e6-969e-003048c6b4ab",
+      "Code": "00027111",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=969e003048c6b4ab11e6685cc0a4f7c7",
+      "Presentation": "SC/APC-SC/UPC, 2м, патчкорд одномодовый ",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "454c1a1f-ae4c-11e7-8776-003048c6b4ab",
+        "Code": "00027863",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8776003048c6b4ab11e7ae4c454c1a1f",
+        "Presentation": "Патч-корды APC",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "02805173-4c93-11df-8906-003048c6b4ab",
+          "Code": "00000039",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c9302805173",
+          "Presentation": "Патч-корды",
+          "IsGroup": true,
+          "Parent": {
+            "uid": "fb868df1-4c92-11df-8906-003048c6b4ab",
+            "Code": "00000008",
+            "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92fb868df1",
+            "Presentation": "Оптическое оборудование",
+            "IsGroup": true,
+            "Parent": {},
+            "ExtProps": []
+          },
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Расходный материал",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Минимальный остаток на основном складе (Номенклатура склада)",
+          "Значение": 20
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "cbed8296-d0ec-11e7-a143-003048c6b4ab",
+      "Code": "00027943",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a143003048c6b4ab11e7d0eccbed8296",
+      "Presentation": "Папка для документов",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0cc9-4c92-11df-8906-003048c6b4ab",
+      "Code": "00011391",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0cc9",
+      "Presentation": "Бур SDS+ 6х100/160",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "02805179-4c93-11df-8906-003048c6b4ab",
+      "Code": "00010252",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c9302805179",
+      "Presentation": "Ключ комбинированный 8мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0c7d-4c92-11df-8906-003048c6b4ab",
+      "Code": "00000782",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c7d",
+      "Presentation": "Инструмент для заделки проводов в кросс с рег.110/66",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0c7f-4c92-11df-8906-003048c6b4ab",
+      "Code": "00002312",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c7f",
+      "Presentation": "Инструмент для заделки провод в кросс типа KRONE",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "ee9e0c8d-4c92-11df-8906-003048c6b4ab",
+      "Code": "00000600",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c8d",
+      "Presentation": "Клещи универс. для обжима RJ45,11,12",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "b32a5275-ddbf-11df-b3b7-003048c6b4ab",
+      "Code": "00022469",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b3b7003048c6b4ab11dfddbfb32a5275",
+      "Presentation": "Бур SDS+ 16x550/600(610)",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "745c4954-61d7-11e1-b74a-003048c6b4ab",
+      "Code": "00023447",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b74a003048c6b4ab11e161d7745c4954",
+      "Presentation": "Бокорезы 160 / 180 мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "c1508564-ca84-11e1-8b70-003048c6b4ab",
+      "Code": "00023651",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8b70003048c6b4ab11e1ca84c1508564",
+      "Presentation": "Плоскогубцы L=180мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "24c48cc1-e25f-11df-a114-003048c6b4ab",
+      "Code": "00022485",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a114003048c6b4ab11dfe25f24c48cc1",
+      "Presentation": "Бур SDS+ 20x940/1000",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "c9a35dd8-e71a-11df-a114-003048c6b4ab",
+      "Code": "00022508",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a114003048c6b4ab11dfe71ac9a35dd8",
+      "Presentation": "Отвертка плоская",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "262b4f1c-f15d-11df-a114-003048c6b4ab",
+      "Code": "00022536",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=a114003048c6b4ab11dff15d262b4f1c",
+      "Presentation": "Бур SDS+ 14x100/160",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "278b7007-222a-11e1-bc67-003048c6b4ab",
+      "Code": "00023319",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bc67003048c6b4ab11e1222a278b7007",
+      "Presentation": "Ножницы по металлу прямые рычажные",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "74e70083-22f4-11e1-bc67-003048c6b4ab",
+      "Code": "00023321",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=bc67003048c6b4ab11e122f474e70083",
+      "Presentation": "Бур SDS+ 8х150/210",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "c8e2c5a7-89bf-11df-aa70-003048c6b4ab",
+      "Code": "00022341",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=aa70003048c6b4ab11df89bfc8e2c5a7",
+      "Presentation": "Молоток",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "121d93cc-0fe6-11e3-ac42-003048c6b4ab",
+      "Code": "00025270",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=ac42003048c6b4ab11e30fe6121d93cc",
+      "Presentation": "Бур SDS+ 8х400/465",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "640e0256-1062-11e3-ac42-003048c6b4ab",
+      "Code": "00025273",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=ac42003048c6b4ab11e31062640e0256",
+      "Presentation": "Ножовка для гипрока 150 мм",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  },
+  {
+    "Заявка": "000415423",
+    "Номенклатура": {
+      "uid": "5bb1023c-dd9a-11df-b3b7-003048c6b4ab",
+      "Code": "00022467",
+      "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=b3b7003048c6b4ab11dfdd9a5bb1023c",
+      "Presentation": "Устройство для зачистки кабеля \"витая пара\" с лезвием 110",
+      "IsGroup": false,
+      "Parent": {
+        "uid": "ee9e0c54-4c92-11df-8906-003048c6b4ab",
+        "Code": "00000020",
+        "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c54",
+        "Presentation": "Инструмент",
+        "IsGroup": true,
+        "Parent": {
+          "uid": "ee9e0c53-4c92-11df-8906-003048c6b4ab",
+          "Code": "00000006",
+          "link": "e1c://server/app05server/1c_crm#e1cib/data/Справочник.НоменклатураСклада?ref=8906003048c6b4ab11df4c92ee9e0c53",
+          "Presentation": "Инструмент",
+          "IsGroup": true,
+          "Parent": {},
+          "ExtProps": []
+        },
+        "ExtProps": []
+      },
+      "Type": "Неконтролируемое",
+      "Kind": "Товар",
+      "Measure": "шт",
+      "ExtProps": [
+        {
+          "Свойство": "Инструмент (Номенклатура склада)",
+          "Значение": true
+        }
+      ]
+    },
+    "СерийныйНомер": null,
+    "Количество": 1
+  }
+]
