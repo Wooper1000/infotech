@@ -2,3 +2,4 @@ node_modules/
 src/api/infotechRequests.js
 config/ordersList.json
 config/config.json
+src/common/config.json

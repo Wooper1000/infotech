@@ -266,11 +266,6 @@ const upload = multer({
 const base64 = (text) => {
     return new Buffer(text).toString('base64')
 }
-class PhotoUploader {
-    uploadPhoto(photoArr){
-        
-    }
-}
 const postPhoto = async (photo,uid)=>{
     let data = fs.createReadStream(photo.path)
     return new Promise((resolve,reject)=>{
