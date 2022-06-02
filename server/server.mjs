@@ -32,7 +32,6 @@ const {
     getJobListUpdate,
     getReport,
     closeOrder,
-    postPhoto
 } = {...requests}
 app.use(cors());
 const port = 3001;
@@ -267,15 +266,18 @@ const upload = multer({
 const base64 = (text) => {
     return new Buffer(text).toString('base64')
 }
-
-app.post('/post-photo', upload.array('files', 10), async (req, res) => {
-    console.log(req.query.uid)
-    for (let photo of req.files) {
-        let data = fs.createReadStream(photo.path)
-        let result = await axios.post('https://ext.obit.ru/crm/hs/extaccess/files/uploadbin', data, {
+class PhotoUploader {
+    uploadPhoto(photoArr){
+        
+    }
+}
+const postPhoto = async (photo,uid)=>{
+    let data = fs.createReadStream(photo.path)
+    return new Promise((resolve,reject)=>{
+        axios.post('https://ext.obit.ru/crm/hs/extaccess/files/uploadbin', data, {
             headers: {
                 'Content-Disposition': `filename=${base64(photo.originalname)}`,                                //имя файла в base64
-                'CRM-uidOwner': req.query.uid,                  //uid заявки
+                'CRM-uidOwner': uid,                  //uid заявки
                 'CRM-FileName': base64(photo.originalname),                                  //не понятно образованное имя в Base64
                 'CRM-typeOwner': '0L7QsdC40YLQl9Cw0Y/QstC60LDQndCw0KDQsNCx0L7RgtGLDQo=', //не меняется
                 'CRM-filetype': 'NDc1MzAzYTgtODc3MS0xMWU0LTgzMWYtMDAzMDQ4YzZiNGFiDQo=',  //не меняется
@@ -290,13 +292,29 @@ app.post('/post-photo', upload.array('files', 10), async (req, res) => {
                 'Connection': 'keep-alive',
             }
         })
-        console.log(result.data.ReturnText)
-        if (result.data.ReturnCode !== 0) {
-            res.json({msg: result.data.ReturnText})
-        }
-    }
-    res.sendStatus(200)
+            .then(result=>{
+            console.log(result.data.ReturnText)
+            if(!result.data.ReturnCode) resolve(!result.data.ReturnCode)
+            else reject('error while loading photo')
+        })
+
+    })
+
+
+}
+app.post('/post-photo', upload.array('files', 10), async (req, res) => {
+    console.log(req.query.uid)
+    let promiseList = []
+    req.files.forEach((photo)=> {
+       promiseList.push(postPhoto(photo,req.query.uid))
+    })
+    Promise.all(promiseList).then(result=>{
+        console.log(result)
+        res.sendStatus(200)
+    })
+
 })
+
 app.post('/telemat',upload.none(), async (req, res) => {
     let hwswitch = await getSwitchDescriptionByObit(req.body.nObit)
     let hwmodel = hwswitch.Name
@@ -425,4 +443,5 @@ app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
 
+let a=()=>{setTimeout(()=>console.log('хуй'),2000)}
 export default authorizeRequest

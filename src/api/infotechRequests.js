@@ -1,7 +1,9 @@
+import config from '../common/config.json'
 const axios = require('axios');
 
+
 export function getOrders(isForced=false,filter='active') {
-    return axios.get("http://188.143.200.86:3001/get-orders",{
+    return axios.get(config.serverURL+"/get-orders",{
       params:{
           isForced,
           filter
@@ -9,7 +11,7 @@ export function getOrders(isForced=false,filter='active') {
     })
 }
 export const call = (key)=>{
-    return axios.get("http://188.143.200.86:3001/call",{
+    return axios.get(config.serverURL+"/call",{
         params:{
             key
         }
@@ -17,7 +19,7 @@ export const call = (key)=>{
 }
 export const closeOrder = (body)=>{
     console.log(body)
-    return axios.post("http://188.143.200.86:3001/close-order",body)
+    return axios.post(config.serverURL+"/close-order",body)
 }
 
 

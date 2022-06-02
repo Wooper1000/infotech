@@ -1,6 +1,7 @@
 import React from "react";
 import {Modal, Button, Row, Col, Select} from "react-onsenui";
 import s from './css/Order.module.css'
+import config from '../common/config.json'
 
 
 const Telemat = (props) => {
@@ -8,7 +9,7 @@ const Telemat = (props) => {
     const [hIpValue, setHIpValue] = React.useState('')
     const [portsList, setPortsList] = React.useState([])
     const getPortsByObit = async (obit) => {
-        let promise = await fetch(`http://188.143.200.86:3001/telemat/get-ports-list?obit=${obit}`)
+        let promise = await fetch(config.serverURL`/telemat/get-ports-list?obit=${obit}`)
         let ports = await promise.json()
         setHIpValue(ports['ip'])
         setPortsList(ports.ports.map((port, idx) => {
@@ -16,7 +17,7 @@ const Telemat = (props) => {
         }))
     }
     const getPortsByIp = async (ip) => {
-        let promise = await fetch(`http://188.143.200.86:3001/telemat/get-ports-list?ip=${ip}`)
+        let promise = await fetch(config.serverURL`/telemat/get-ports-list?ip=${ip}`)
         let ports = await promise.json()
 
         setHObitValue(ports['obitNum'])
@@ -30,7 +31,7 @@ const Telemat = (props) => {
         e.preventDefault()
         let form = document.getElementById('telematForm')
         let formData = new FormData(form)
-        let promise = await fetch(`http://188.143.200.86:3001/telemat?order1c=${props.o.jobNumber}&adressGUID=${props.o.ticket['ФизическийАдрес'].uid}`,
+        let promise = await fetch(config.serverURL`/telemat?order1c=${props.o.jobNumber}&adressGUID=${props.o.ticket['ФизическийАдрес'].uid}`,
             {
                 method: 'POST',
                 body: formData

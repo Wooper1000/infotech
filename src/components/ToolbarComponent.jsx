@@ -2,12 +2,13 @@ import React from 'react';
 import {ProgressCircular, Toolbar, ToolbarButton, Icon,Modal,Button,Row,Col} from "react-onsenui";
 import p from './css/Order.module.css'
 import {useDispatch} from "react-redux";
+import config from '../common/config.json'
 
 
 const ToolbarComponent = (props) => {
 
     const getSalary = async ()=>{
-        let promise= await fetch('http://188.143.200.86:3001/get-report')
+        let promise= await fetch(config.serverURL+'/get-report')
         let salary = await promise.json()
         alert(salary)
     }

@@ -1,12 +1,13 @@
 import React, {useEffect} from "react";
 import {Modal, Button, Row, Col, Card, ListItem,Page} from "react-onsenui";
 import s from './css/Order.module.css'
+import config from '../common/config.json'
 
 
 const SwitchPort = (props) => {
     const [arrayOfBoxes,setArrayOfBoxes] = React.useState(null)
             useEffect( async ()=> {
-                let promise = await fetch(`http://188.143.200.86:3001/all-telecom-boxes?uid=${props.uid}`)
+                let promise = await fetch(config.serverURL+`/all-telecom-boxes?uid=${props.uid}`)
                 let data = await promise.json()
                 console.log(data)
                 setArrayOfBoxes(data
