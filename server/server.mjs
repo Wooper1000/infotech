@@ -445,7 +445,6 @@ app.get('/get-contracts-in-range-of-flats', async (req, res) => {
     let max = req.query.max
     let physUid = req.query.uid
     let uid = await getAddressUid(physUid)
-    let result = []
     const flatsRange = []
     for (let i = min;i<=max;i++){
         flatsRange.push(i)
@@ -454,25 +453,18 @@ app.get('/get-contracts-in-range-of-flats', async (req, res) => {
         return new Promise((resolve, reject) => {
             getContractsByAddress(uid,flat).then(contracts => {
                 if(contracts) {
-                    let isActive = contracts.filter(contract => {
+                    let isCableAvailable = !!(contracts.length && !contracts.filter(contract => {return (contract['Значение']['Status'] === 'Активен')}).length)
+                    let isActive = !! contracts.filter(contract => {
                         return (contract['Значение']['Status'] === 'Активен')
                     }).length
-                    if (contracts.length
-                        // &&
-                        // !contracts.filter(contract => {
-                        //     return (contract['Значение']['Status'] === 'Активен')
-                        // }).length
-                    ) {
-                        result.push({
-                            flat,
-                            contracts
-                        })
+                    if (contracts.length) {
                         resolve({
                             msg: `В ${flat} было ${contracts.length} договоров. Линия ${isActive ? 'активна' : 'отключена'}`,
-                            isActive
+                            isActive,
+                            isCableAvailable,flat
                         })
                     } else if (contracts) {
-                        resolve({msg: `В ${flat} не было договора`, isActive})
+                        resolve({msg: `В ${flat} не было договора`, isActive,isCableAvailable,flat})
                     } else reject(`Ошибочка вышла во время запроса квартиры ${flat}`)
                 }
                 else reject('Ошибка запросов')
@@ -485,8 +477,8 @@ app.get('/get-contracts-in-range-of-flats', async (req, res) => {
         promises.push(findClosedContracts(flat,uid))
     })
     Promise.all(promises).then(resolves => {
-        console.log(result)
-        res.json(resolves.map(r=>r?.msg))
+        console.log(resolves)
+        res.json(resolves)
 
     })
 })

@@ -1,16 +1,21 @@
 import React, {useEffect} from "react";
-import {Modal, Button, Row, Col, Card, ListItem, Page, Input} from "react-onsenui";
+import {Modal, Button, Row, Col,Input,AlertDialog,Icon,Card} from "react-onsenui";
 import s from './css/Order.module.css'
 import config from '../common/config.json'
+
 
 
 const ClosedContracts = (props) => {
     let uid = props.uid
     let [min,setMin] = React.useState()
     let [max,setMax] = React.useState()
-let getClosedContracts = async(uid,max,min)=>{
+    let [flatList,setFlatList]=React.useState([])
+    let [toastVisible,setToastVisible]=React.useState(false)
+let getClosedContracts = async()=>{
     let promise = await fetch(config.serverURL+'/get-contracts-in-range-of-flats'+`?uid=${uid}&min=${min}&max=${max}`)
-    return promise.json()
+    let flats = await promise.json()
+    setFlatList(flats)
+    setToastVisible(true)
     }
 
     return <Modal isOpen={props.showModal} style={{
@@ -34,12 +39,49 @@ let getClosedContracts = async(uid,max,min)=>{
 
                 <Row>
                     <Col>
-                        <Button onClick={async ()=>{
-                           let flats = await getClosedContracts(uid,max,min)
-                            alert(flats)
-                        }}>Проверить</Button>
+                        <Button onClick={getClosedContracts}>Проверить</Button>
                     </Col>
                 </Row>
+                <Card isOpen={toastVisible} >
+                    <div>
+                    {/*    <div style={{'margin':'20px'}}>*/}
+                    {/*        <div>*/}
+                    {/*            <Row><Col>Доступны квартиры: {flatList.map(flat=>{ if (flat.isCableAvailable){ return flat.flat}})}</Col></Row>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    */}
+                        {flatList.map(flat=>{
+                            switch (flat.isActive){
+                                case false:return <Row>
+                                <Col>
+                                    <p style={{'color':flat.isCableAvailable?'red':'grey'}}>{flat.msg}</p>
+                                </Col>
+                                    <Col><Icon icon={flat.isCableAvailable?'fa-check-circle-o':'fa-ban'}
+                                               size={26}
+                                               style={{
+                                                   verticalAlign: 'middle',
+                                                   color:flat.isCableAvailable?'green':'red'
+                                               }}
+                                    /></Col>
+                                </Row>
+                                case true :return <Row>
+                                    <Col>
+                                    <p style={{'color':'green'}}>{flat.msg}</p>
+                        </Col>
+                            <Col><Icon icon={'fa-ban'}
+                                       size={26}
+                                       style={{
+                                           verticalAlign: 'middle',
+                                           color:'red'
+                                       }}
+                            /></Col>
+                        </Row>
+                                default : {}
+                            }
+                        })
+                        }
+                    </div>
+                </Card>
 
             </div>
 
