@@ -1,5 +1,4 @@
 import axios from "axios"
-import axiosRetry from 'axios-retry'
 import express from 'express'
 import bodyParser from 'body-parser'
 import cors from 'cors'
@@ -21,7 +20,6 @@ const app = express()
 app.use(express.json())
 app.use(bodyParser.urlencoded())
 app.use(bodyParser.json())
-axiosRetry(axios,{retries: 3})
 //app.use(bodyParser.urlencoded({extended: true}));
 let ordersList = orders;
 //let allEquipment = equipment;
