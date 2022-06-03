@@ -31,7 +31,7 @@ const Telemat = (props) => {
         e.preventDefault()
         let form = document.getElementById('telematForm')
         let formData = new FormData(form)
-        let promise = await fetch(config.serverURL`/telemat?order1c=${props.o.jobNumber}&adressGUID=${props.o.ticket['ФизическийАдрес'].uid}`,
+        let promise = await fetch(config.serverURL+`/telemat?order1c=${props.o.jobNumber}&adressGUID=${props.o.ticket['ФизическийАдрес'].uid}`,
             {
                 method: 'POST',
                 body: formData

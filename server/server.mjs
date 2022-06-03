@@ -1,24 +1,27 @@
 import axios from "axios"
+import axiosRetry from 'axios-retry'
 import express from 'express'
 import bodyParser from 'body-parser'
 import cors from 'cors'
 import dateFormat from "dateformat";
 import fs from 'fs'
-import requestConfig from '../config/config.json'  assert {type: "json"}
+import base64 from "./base64.mjs";
+import requestConfig from '../config/config.json' assert {type: "json"}
 import orders from '../config/ordersList.json' assert {type: "json"}
 
 //import equipment from '../config/equipment.json'
 import requests from "./requests.mjs";
 import multer from 'multer'
 import authReq from './middleware/authorizeRequests.js'
-import { log } from "console";
+import {log} from "console";
+import PhotoUploader from "./photoUploader.mjs";
 
 
 const app = express()
 app.use(express.json())
 app.use(bodyParser.urlencoded())
 app.use(bodyParser.json())
-
+axiosRetry(axios,{retries: 3})
 //app.use(bodyParser.urlencoded({extended: true}));
 let ordersList = orders;
 //let allEquipment = equipment;
@@ -218,7 +221,6 @@ const instance = axios.create({
     }
 })
 
-
 // app.get('/get-report',async (req,res,next=authReq) => {
 //  try {
 //      let promise = await instance.post('Reports/Get', {
@@ -263,54 +265,17 @@ app.get('/show-equipment', async (req, res) => {
 const upload = multer({
     dest: "./photos"
 });
-const base64 = (text) => {
-    return new Buffer(text).toString('base64')
-}
-const postPhoto = async (photo,uid)=>{
-    let data = fs.createReadStream(photo.path)
-    return new Promise((resolve,reject)=>{
-        axios.post('https://ext.obit.ru/crm/hs/extaccess/files/uploadbin', data, {
-            headers: {
-                'Content-Disposition': `filename=${base64(photo.originalname)}`,                                //имя файла в base64
-                'CRM-uidOwner': uid,                  //uid заявки
-                'CRM-FileName': base64(photo.originalname),                                  //не понятно образованное имя в Base64
-                'CRM-typeOwner': '0L7QsdC40YLQl9Cw0Y/QstC60LDQndCw0KDQsNCx0L7RgtGLDQo=', //не меняется
-                'CRM-filetype': 'NDc1MzAzYTgtODc3MS0xMWU0LTgzMWYtMDAzMDQ4YzZiNGFiDQo=',  //не меняется
-                'IBSession': 'start',
-                'Authorization': 'Basic 0KjQsNCx0LDQvdGB0LrQuNC50JTQkjphV0hSQ09scjh6',
-                "Accept-Encoding": "gzip, deflate, br",
-                "Content-Type": "application/octet-stream",
-                'MobAppName': "0JjQvdGE0L7QotC10YUNCg==",
-                'MobAppVersion': "0.3.82",
-                'User-Agent': '1C+Enterprise/8.3',
-                'Host': 'ext.obit.ru',
-                'Connection': 'keep-alive',
-            }
-        })
-            .then(result=>{
-            console.log(result.data.ReturnText)
-            if(!result.data.ReturnCode) resolve(!result.data.ReturnCode)
-            else reject('error while loading photo')
-        })
-
-    })
 
 
-}
 app.post('/post-photo', upload.array('files', 10), async (req, res) => {
-    console.log(req.query.uid)
-    let promiseList = []
-    req.files.forEach((photo)=> {
-       promiseList.push(postPhoto(photo,req.query.uid))
-    })
-    Promise.all(promiseList).then(result=>{
+let uid = req.query.uid
+    let result = await PhotoUploader.uploadPhotos(req.files,uid)
         console.log(result)
-        res.sendStatus(200)
-    })
-
+        res.send({msg:`${result.length} ФОТОСЫ ЗАГРУЖЕНЫ`})
 })
 
-app.post('/telemat',upload.none(), async (req, res) => {
+
+app.post('/telemat', upload.none(), async (req, res) => {
     let hwswitch = await getSwitchDescriptionByObit(req.body.nObit)
     let hwmodel = hwswitch.Name
     let hwip = await getIpByObit(req.body.nObit)
@@ -330,13 +295,13 @@ app.post('/telemat',upload.none(), async (req, res) => {
     let data = {
         lastmile: "",
         data: [{
-            obitnum: 'OBIT-'+newSwitch.obitnum,
-            hwmodel:newSwitch.hwmodel,
-            hwip:newSwitch.hwip,
-            hwuplink:newSwitch.hwuplink,
-            switchip:highSwitch.switchip,
-            switchport:highSwitch.switchport,
-            switchobitnum:'OBIT-'+highSwitch.switchobitnum
+            obitnum: 'OBIT-' + newSwitch.obitnum,
+            hwmodel: newSwitch.hwmodel,
+            hwip: newSwitch.hwip,
+            hwuplink: newSwitch.hwuplink,
+            switchip: highSwitch.switchip,
+            switchport: highSwitch.switchport,
+            switchobitnum: 'OBIT-' + highSwitch.switchobitnum
         }],
         radio: 0,
         optic: 0,
@@ -344,16 +309,16 @@ app.post('/telemat',upload.none(), async (req, res) => {
         comment: req.body.comment ? req.body.comment : ""
     }
     let telematRequestBody = {
-        id:0,
+        id: 0,
         tickettype: 3,
-        order1c:`${req.query.order1c}`,
-        data:JSON.stringify(data),
-        AddressGUID:req.query.adressGUID,
-        sourceid:"f71850b6-60ee-d72b-2e07-55ee500f95b5",  //рандомно
+        order1c: `${req.query.order1c}`,
+        data: JSON.stringify(data),
+        AddressGUID: req.query.adressGUID,
+        sourceid: "f71850b6-60ee-d72b-2e07-55ee500f95b5",  //рандомно
         delayed: false
     }
     console.log(telematRequestBody)
-    let promise = await instance.post('/vobit/create',telematRequestBody)
+    let promise = await instance.post('/vobit/create', telematRequestBody)
     console.log(promise.data.Answer)
     res.json(promise.data.Answer)
 })
@@ -370,73 +335,169 @@ const getSwitchDescriptionByObit = async (obit) => {
     let promise = await instance.get(`/trade/getequipment?ObitSN=OBIT-${obit}`)
     return promise.data.Answer
 }
-const getSwitchPortsReportByObit= async (obit)=>{
+const getSwitchPortsReportByObit = async (obit) => {
     let promise = await instance.get(`/netobject/telem_srv?act=get_sw_report&obitnumber=OBIT-${obit}`)
     return JSON.parse(promise.data.Answer)
 }
-const getSwitchByIp = async (ip)=>{
+const getSwitchByIp = async (ip) => {
     let promise = await instance.get(`/netobject/eqfind?ip=${ip}`)
     return promise.data.Answer.length > 0 ? promise.data.Answer : null
 }
-const getContractsStatus = async (arrayOfContracts)=>{
-    let promise = await instance.post(`/home/contractstatus`,arrayOfContracts)
+const getContractsStatus = async (arrayOfContracts) => {
+    let promise = await instance.post(`/home/contractstatus`, arrayOfContracts)
     return promise.data.Answer
+}
+const getClientsByAddress = async (address) => {
+    let promise = await instance.post(`/GetClientsByAddress/get`, address).catch(err=>{
+        console.log('Самая ебаная ошибка')})
+    return promise.data.Answer
+}
+const getAddressUid = async (uid) => {
+
+    let promise = await instance.post(`/addresses/getbyphaddress?full&uid=${uid}`).catch(err=>console.log('Ошибка получения UID',uid))
+    return {
+        uid: promise.data['Список'][0]['Ссылка'],
+        name: promise.data['Список'][0]['Наименование'],
+        street: promise.data['Список'][0]['Улица'],
+        home: promise.data['Список'][0]['Дом'],
+        additionalInfo: promise.data['Список'][0]['ДопДанные'],
+    }
+}
+const getContractsByAddress = async (uid, flat) => {
+    let address = {
+        "Договор": "",
+        "АдресАрендодателя": {
+            "uid": uid.uid.toString(),
+            "Code": "",
+            "Name": uid.name.toString()
+        },
+        "АдресУлица": uid.street.toString(),
+        "АдресДом": uid.home.toString(),
+        "АдресЛитера": uid.additionalInfo.find(element => {
+            return element['Тип'] === 'Литера'
+        }) ? uid.additionalInfo.find(element => {
+            return element['Тип'] === 'Литера'
+        })['Значение'] : '',
+        "АдресКорпус": uid.additionalInfo.find(element => {
+            return element['Тип'] === 'Корпус'
+        }) ? uid.additionalInfo.find(element => {
+            return element['Тип'] === 'Корпус'
+        })['Значение'] : '',
+        "АдресКвартира": flat.toString()
+    }
+    let promise = await getClientsByAddress(address)
+
+    return promise
 }
 app.get('/telemat/get-ports', async (req, res) => {
     let ip = await getIpByObit(req.query.obit)
     let ports = await getPortsByIp(ip)
-    let portsDescription = await  getSwitchPortsReportByObit(req.query.obit)
+    let portsDescription = await getSwitchPortsReportByObit(req.query.obit)
     let contracts = []
     for (const [key, value] of Object.entries(portsDescription)) {
-        contracts.push(value.contract?value.contract:"")
+        contracts.push(value.contract ? value.contract : "")
     }
-let contractsStatus = await getContractsStatus({contracts:contracts})
-    ports = ports.map((port,idx)=>{
+    let contractsStatus = await getContractsStatus({contracts: contracts})
+    ports = ports.map((port, idx) => {
         return {
-            port:port,
-            description:portsDescription[port],
-            status:contractsStatus.find((e)=>e['Договор']===portsDescription[port].contract)
+            port: port,
+            description: portsDescription[port],
+            status: contractsStatus.find((e) => e['Договор'] === portsDescription[port].contract)
         }
     })
     res.send(ports)
 
 })
 app.get('/telemat/get-ports-list', async (req, res) => {
-    let ip =req.query.obit ? await getIpByObit(req.query.obit) : req.query.ip
+    let ip = req.query.obit ? await getIpByObit(req.query.obit) : req.query.ip
     let ports = await getPortsByIp(ip)
     let obitNum = await getSwitchByIp(ip)
-    if(obitNum){
+    if (obitNum) {
         obitNum = obitNum[0]['ОБИТНомер'].split('OBIT-')[1]
     }
     let result = {
         ports,
-        obitNum:obitNum ? obitNum : req.query.obit,
+        obitNum: obitNum ? obitNum : req.query.obit,
         ip
     }
     console.log(result)
     res.send(result)
 })
-app.get('/all-telecom-boxes',async (req,res)=>{
-    let promise = await instance.post('netobject/getbyphisadruid',{
-        'pauids':req.query.uid
+app.get('/all-telecom-boxes', async (req, res) => {
+    let promise = await instance.post('netobject/getbyphisadruid', {
+        'pauids': req.query.uid
     })
     let allInfo = promise.data.Answer
     res.send(allInfo)
 
 })
-app.get('/test',async (req,res)=>{
+app.get('/test', async (req, res) => {
     let promise = await getSwitchDescriptionByObit(req.query.obit)
-res.send(promise)
+    res.send(promise)
 })
-app.get('/test2',async (req,res)=>{
+app.get('/test2', async (req, res) => {
     let promise = await getSwitchByIp(req.query.ip)
-res.send(promise)
+    res.send(promise)
 })
 
+app.get('/get-contracts-in-range-of-flats', async (req, res) => {
+    let min = req.query.min
+    let max = req.query.max
+    let physUid = req.query.uid
+    let uid = await getAddressUid(physUid)
+    let result = []
+    const flatsRange = []
+    for (let i = min;i<=max;i++){
+        flatsRange.push(i)
+    }
+    const findClosedContracts = async (flat, uid) => {
+        return new Promise((resolve, reject) => {
+            getContractsByAddress(uid,flat).then(contracts => {
+                if(contracts) {
+                    let isActive = contracts.filter(contract => {
+                        return (contract['Значение']['Status'] === 'Активен')
+                    }).length
+                    if (contracts.length
+                        // &&
+                        // !contracts.filter(contract => {
+                        //     return (contract['Значение']['Status'] === 'Активен')
+                        // }).length
+                    ) {
+                        result.push({
+                            flat,
+                            contracts
+                        })
+                        resolve({
+                            msg: `В ${flat} было ${contracts.length} договоров. Линия ${isActive ? 'активна' : 'отключена'}`,
+                            isActive
+                        })
+                    } else if (contracts) {
+                        resolve({msg: `В ${flat} не было договора`, isActive})
+                    } else reject(`Ошибочка вышла во время запроса квартиры ${flat}`)
+                }
+                else reject('Ошибка запросов')
+            })
+        }).catch(err=>console.log(`Ошибочка вышла во время запроса квартиры ${flat}`))
+    }
 
+    let promises = []
+    flatsRange.forEach(flat => {
+        promises.push(findClosedContracts(flat,uid))
+    })
+    Promise.all(promises).then(resolves => {
+        console.log(result)
+        res.json(resolves.map(r=>r?.msg))
+
+    })
+})
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
 
-let a=()=>{setTimeout(()=>console.log('хуй'),2000)}
+let a = () => {
+    setTimeout(() => console.log('хуй'), 2000)
+}
 export default authorizeRequest
+
+
+

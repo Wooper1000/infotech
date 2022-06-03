@@ -8,6 +8,7 @@ import React from "react";
 import UploadPhoto from "./UploadPhoto";
 import Telemat from "./Telemat";
 import SwitchPort from "./SwitchPort";
+import ClosedContracts from './ClosedContracts'
 
 const AdditionalInfo = (props) => {
     const [showCallDialog, setShowCallDialog] = React.useState(false);
@@ -15,6 +16,7 @@ const AdditionalInfo = (props) => {
     const [showPhotoModalForm, setShowPhotoModalForm] = React.useState(false)
     const [showTelematModalForm, setShowTelematModalForm] = React.useState(false)
     const [showSwitchModalForm, setShowSwitchModalForm] = React.useState(false)
+    const [showContractsModalForm, setShowContractsModalForm] = React.useState(false)
     return <div>
         <Row className={s.rowPaddingTop}>
             <Col><b>{props.o.name}</b></Col>
@@ -92,6 +94,16 @@ const AdditionalInfo = (props) => {
                     uid={props.o.ticket['ФизическийАдрес'].uid}
                     showModal={showSwitchModalForm}
                     setShowSwitchModalForm={setShowSwitchModalForm}
+                />
+            </Col>
+            <Col align='middle'>
+                <Button onClick={() => setShowContractsModalForm(true)} modifier={'material'}>
+                   Закрытые договора
+                </Button>
+                <ClosedContracts
+                    uid={props.o.ticket['ФизическийАдрес'].uid}
+                    showModal={showContractsModalForm}
+                    setShowContractsModalForm={setShowContractsModalForm}
                 />
             </Col>
         </Row>
