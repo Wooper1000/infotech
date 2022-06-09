@@ -1,33 +1,35 @@
 import dateFormat from "dateformat";
-import axios from "axios";
-import FormData from 'form-data'
-import authorizeRequest from "./server.mjs";
 import fs from "fs";
+import instance from "./middleware/axios.middlewarem.mjs";
 
-const instance = axios.create({
-    baseURL: "https://ext.obit.ru/crm/hs/extaccess/",
-    headers: {
-        "Accept-Encoding": "gzip, deflate, br",
-        "Content-Type": "application/octet-stream",
-        MobAppName: "0JjQvdGE0L7QotC10YUNCg==",
-        MobAppVersion: "0.3.82",
-        'User-Agent': '1C+Enterprise/8.3',
-        Host: 'ext.obit.ru',
-        Connection: 'keep-alive',
-    }
-})
+
 
 const requests = {
+    getJobList:async ()=>{
+        let promise = await instance.post(`joblist/get`)
+        return promise.data.Answer
+    },
+    getOrderIP: async (order) => {
+        let promise = await instance.get(`tickets/getsettings?number=${order}`)
+        return promise.data.Answer
+    },
+    getTickets: async (order) => {
+         let promise = await instance.get(`Tickets/get?number=${order}`)
+        return promise.data.Answer
+    },
+    getJobHistory : async(order) => {
+        let promise = await instance.get(`/job/history?number=${order}`)
+        return promise.data.Answer
+    },
+
+
+
     getOrders: (date, cfg) => {
     return instance.get(`joblist/update?date=20211225205205` ,cfg)
 },
 
-    getOrderIP: (order, cfg) => {
-    return instance.get(`tickets/getsettings?number=${order}`, cfg)
-},
-    getJobList:(data={},cfg)=>{
-        return instance.post(`joblist/get`,JSON.stringify(data),cfg)
-    },
+
+
     getJobListUpdate:({},cfg)=>{
         return instance.get(`joblist/update?date=20211228170844`,cfg)
     },
@@ -36,17 +38,13 @@ const requests = {
     return instance.get('trade/getEquipmentByOrders', cfg)
 },
 
-    getJobHistory: (order, cfg) => {
-    return instance.get(`/job/history?number=${order}`, cfg)
-},
 
-    getTickets: (order, cfg) => {
-    return instance.get(`Tickets/get?number=${order}`, cfg)
-},
-    getReport: (date={}, cfg) => {
-        let startDate = dateFormat(date.start, "yyyy-mm-dd") + "T00:00:00"
-       let endDate = dateFormat(date.finish, "yyyy-mm-dd") + "T23:59:59"
-    return instance.post('Reports/Get', {
+
+
+    getReport: async (start,finish,variant) => {
+        let startDate = dateFormat(start, "yyyy-mm-dd") + "T00:00:00"
+       let endDate = dateFormat(finish, "yyyy-mm-dd") + "T23:59:59"
+    let promise = await instance.post('Reports/Get', {
         "id": "c2f0ef93-c513-11ea-b976-005056b57a2d",
         "param": {
             "Filter": [],
@@ -55,14 +53,15 @@ const requests = {
                     "id": "d98ea70f-c5d9-4c44-9808-7d98f9971031",
                     "use": true,
                     "value": {
-                        "Variant": date.variant ? date.variant: "Этотмесяц",
+                        "Variant": variant ? variant: "Этотмесяц",
                          "StartDate": startDate,
                          "EndDate": endDate
                     }
                 }
             ]
         }
-    }, cfg)
+    })
+        return promise.data.Answer
 },
     call: (key, cfg) => {
     console.log(key)

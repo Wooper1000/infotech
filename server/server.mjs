@@ -1,4 +1,3 @@
-import axios from "axios"
 import express from 'express'
 import bodyParser from 'body-parser'
 import cors from 'cors'
@@ -7,22 +6,25 @@ import fs from 'fs'
 import base64 from "./base64.mjs";
 import requestConfig from '../config/config.json' assert {type: "json"}
 import orders from '../config/ordersList.json' assert {type: "json"}
-
-//import equipment from '../config/equipment.json'
+import instance from "./middleware/axios.middlewarem.mjs";
 import requests from "./requests.mjs";
 import multer from 'multer'
-import authReq from './middleware/authorizeRequests.js'
-import {log} from "console";
 import PhotoUploader from "./photoUploader.mjs";
 
 
 const app = express()
+const port = 3001;
+app.get('/', (req, res) => {
+    res.send('Сервачок на компе!')
+})
+
+
 app.use(express.json())
 app.use(bodyParser.urlencoded())
 app.use(bodyParser.json())
-//app.use(bodyParser.urlencoded({extended: true}));
+
 let ordersList = orders;
-//let allEquipment = equipment;
+
 const {
     getJobHistory,
     getOrderIP,
@@ -35,10 +37,7 @@ const {
     closeOrder,
 } = {...requests}
 app.use(cors());
-const port = 3001;
-app.get('/', (req, res) => {
-    res.send('Сервачок на компе!')
-})
+
 
 const authorizeRequest = (f, options = {}, cfg1 = requestConfig.withCookie, cfg2 = requestConfig.withAuth) => {
     {
@@ -59,20 +58,12 @@ const authorizeRequest = (f, options = {}, cfg1 = requestConfig.withCookie, cfg2
 }
 
 const setCurrentOrders = async () => {
-    let orders = await authorizeRequest(requests.getJobList);
+    let orders = await requests.getJobList();
     ordersList = await responseHandler(orders)
     fs.writeFileSync('../config/ordersList.json', JSON.stringify(ordersList));
     console.log('Принудительно обновлено')
     return ordersList
 }
-// const setCurrentEquipment = async () => {
-//     let promise = await authorizeRequest(requests.getEquipmentByOrders);
-//     allEquipment = await promise.Answer
-//     fs.writeFileSync('../config/equipment.json', JSON.stringify(equipment));
-//     console.log('Оборудка записана')
-// }
-// (async () => await setCurrentEquipment())()
-//(async ()=>await setCurrentOrders())()
 setInterval(async () => {
     console.log("Зашёл сюда")
     let hours = new Date().getHours()
@@ -103,14 +94,13 @@ const filterOrders = (orders, filter) => {
                 })
     }
 }
-const responseHandler = async (resp) => {
-    let path = resp.Answer
+const responseHandler = async (path) => {
     let response = [];
     for (const [i, order] of path.entries()) {
-        let history = await authorizeRequest(getJobHistory, path[i]['Номер']);
-        let ticket = await authorizeRequest(getTickets, path[i]['РегистрационныйНомерВСистемеИсточникеЗаявки'])
-        let ipAdress = await authorizeRequest(getOrderIP, path[i]['РегистрационныйНомерВСистемеИсточникеЗаявки']);
-        let services = ticket.Answer.Ticket ? ticket.Answer.Ticket.Services : null
+        let history = await getJobHistory(path[i]['Номер']);
+        let ticket = await getTickets(path[i]['РегистрационныйНомерВСистемеИсточникеЗаявки'])
+        let ipAdress = await getOrderIP(path[i]['РегистрационныйНомерВСистемеИсточникеЗаявки']);
+        let services = ticket ? ticket.Services : null
         response.push({
             adress: path[i]['Адрес'],                                                      //Запрос списка заявок
             date: formatDateAndTime(path[i]['ПланДатаНачала'], "date"),
@@ -121,7 +111,7 @@ const responseHandler = async (resp) => {
             contractNumber: path[i]['НомерДоговора'],
             isConnected: !!path[i]['АдресБылПодключенРанее'],
             telephone: path[i]['КонтактныеДанные'][0] ? path[i]['КонтактныеДанные'][0]['Телефон'] : 'Без телефона',
-            ip: ipAdress.Answer.result === "success" ? ipAdress.Answer.data : false,
+            ip: ipAdress.result === "success" ? ipAdress : false,
             typeOfWork: path[i]['ТипРабот'],
             comment: path[i]['ДополнительнаяИнформация'],
             creator: path[i]['Ответственный'].Name,
@@ -129,56 +119,13 @@ const responseHandler = async (resp) => {
             jobNumber: path[i]['Номер'],
             name: path[i]['Контрагент'],
             callKey: (+(path[i]['Номер'].slice(4) + "01")).toString(),
-            history: history.Answer.map(e => e['Комментарий']),
+            history: history.map(e => e['Комментарий']),
             equipment: path[i]['Товары'] ? path[i]['Товары'] : false,
             services: path[i]['Услуги'],
             ticket: path[i],
-            closingForm: {
-                "ПометкаУдаления": false,
-                "Комментарий": "",
-                "РаботыВыполнены": true,
-                "ДокументыПолучены": false,
-                "ДокументыПодписаны": false,
-                "ЗаборОборудования": false,
-                "ЗатраченоМинут": 0,
-                "ОтложенноеПодключение": false,
-                "ВыполнениеПодтверждено": true,
-                "ПриостановкаСМоментаПодключения": false,
-                "ТегиЗаявки": "",
-                "Заявка": path[i].uid,
-                "БлагонадежностьСтатус": "00000000-0000-0000-0000-000000000000",
-                "БлагонадежностьКомментарий": "",
-                "Работы": path[i]['Услуги'].map(e => {
-                    return {
-                        "Номенклатура": e['НоменклатураUID'],
-                        "КоличествоПлан": 1,
-                        "Количество": e['Количество'],
-                        "Перенос": false,
-                        "Высотные": false,
-                        "Ночные": false,
-                        "Демонтаж": false
-                    }
-                }),
-                "Материалы": [],
-                "Оборудование": [],
-                "Услуги": [
-                    {
-                        "НомерУслугиЗаявки": 1,
-                        "Наименование": services ? services.map((e) => {
-                            e['Свойство'].Name
-                        }).join(' ') : null,
-                        "Подключена": true,
-                        "Причина": "",
-                        "Дополнительная": false,
-                        "appserviceid": 0
-                    }
-                ],
-                "ДополнительныеЗаявки": [],
-                "ДополнительныеУслуги": []
-            }
+
         })
     }
-    //response[response.length - 1].ticket = resp;
     return response
 }
 
@@ -192,32 +139,12 @@ app.get('/call', async (req, res) => {
     res.send(result.Answer)
 })
 app.get('/get-report', async (req, res) => {
-    let result = await authorizeRequest(getReport,
-        {
-            start: req.query.start,
-            finish: req.query.finish,
-            variant: req.query.variant
-
-        }
-    );
-    let buff = new Buffer(result.Answer, 'base64');
+    let report = await getReport(req.query.start,req.query.finish,req.query.variant)
+    let buff = new Buffer(report, 'base64');
     let text = buff.toString('utf8');
     res.send(text.split('{16,')[20].split(',')[4].replace(/[^0-9]/g, ""))
 })
-const instance = axios.create({
-    baseURL: "https://ext.obit.ru/crm/hs/extaccess/",
-    headers: {
-        "Accept-Encoding": "gzip, deflate, br",
-        "Content-Type": "application/octet-stream",
-        MobAppName: "0JjQvdGE0L7QotC10YUNCg==",
-        MobAppVersion: "0.3.82",
-        'User-Agent': '1C+Enterprise/8.3',
-        Host: 'ext.obit.ru',
-        Connection: 'keep-alive',
-        IBSession: 'start',
-        Authorization: 'Basic 0KjQsNCx0LDQvdGB0LrQuNC50JTQkjphV0hSQ09scjh6'
-    }
-})
+
 
 // app.get('/get-report',async (req,res,next=authReq) => {
 //  try {
@@ -345,9 +272,13 @@ const getContractsStatus = async (arrayOfContracts) => {
     let promise = await instance.post(`/home/contractstatus`, arrayOfContracts)
     return promise.data.Answer
 }
+// const getClientsByAddress = async (address) => {
+//     let promise = await instance.post(`/GetClientsByAddress/get`,apiClient, address)
+//     return promise.data.Answer
+// }
+
 const getClientsByAddress = async (address) => {
-    let promise = await instance.post(`/GetClientsByAddress/get`, address).catch(err=>{
-        console.log('Самая ебаная ошибка')})
+    let promise = await instance.post(`https://ext.obit.ru/crm/hs/extaccess/GetClientsByAddress/get`, address)
     return promise.data.Answer
 }
 const getAddressUid = async (uid) => {
@@ -475,9 +406,7 @@ app.get('/get-contracts-in-range-of-flats', async (req, res) => {
         promises.push(findClosedContracts(flat,uid))
     })
     Promise.all(promises).then(resolves => {
-        console.log(resolves)
         res.json(resolves)
-
     })
 })
 app.listen(port, () => {
